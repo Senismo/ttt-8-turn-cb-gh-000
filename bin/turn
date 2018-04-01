@@ -2,8 +2,7 @@
 require_relative '../lib/turn.rb'
 board = Array.new(9, " ")
 puts "Welcome to Tic Tac Toe!"
-display_board(board)
 move(board, 1, "X")
 move(board, 3, "X")
+display_board(board)
 turn(board)
-
