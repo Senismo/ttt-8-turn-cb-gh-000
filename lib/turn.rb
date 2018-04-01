@@ -40,4 +40,3 @@ def turn
   else
     puts "Please enter 1-9: " until valid_move?(board, input) end
   end
-end
