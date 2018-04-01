@@ -40,3 +40,4 @@ def turn
   else
     turn
   end
+end
